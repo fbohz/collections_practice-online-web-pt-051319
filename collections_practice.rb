@@ -64,6 +64,7 @@ def sum_array(arr)
 end 
 
 def add_s(arr)
+<<<<<<< HEAD
   arr.collect do | value |
     if arr[1] == value
     value 
@@ -71,4 +72,7 @@ def add_s(arr)
      value << "s"
   end
  end
+=======
+  
+>>>>>>> 42ad9d19b3a3a82c2a8ab32030d323ee6a7c7eb5
 end 
